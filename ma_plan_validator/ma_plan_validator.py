@@ -128,8 +128,8 @@ class MAPlanValidator(MetaEngine, PlanValidatorMixin):
             origin_dir = os.path.join(tempdir, "origin")
             ma_pddl_writer.write_ma_domain(origin_dir)
             ma_pddl_writer.write_ma_problem(origin_dir)
-            domain_path = os.path.join("ma_pddl_" + origin_dir, "domain.pddl")
-            problem_path = os.path.join("ma_pddl_" + origin_dir, "problem.pddl")
+            domain_path = os.path.join(origin_dir, "domain.pddl")
+            problem_path = os.path.join(origin_dir, "problem.pddl")
 
             # Centralizing PDDL files
             centralized_dir = os.path.join(tempdir, "centralized")
