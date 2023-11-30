@@ -6,13 +6,13 @@ library](https://github.com/aiplan4eu/unified-planning) by the [AIPlan4EU projec
 ## Installation
 To install MA-Plan-Validator:
 
-```
+```sh
 pip install ma-plan-validator
 ```
 
 you get the latest version. If you need an older version, you can install it with:
 
-```
+```sh
 pip install ma-plan-validator==<version number>
 ```
 
@@ -20,7 +20,7 @@ pip install ma-plan-validator==<version number>
 
 ### Validate a MultiAgent-Planning problem
 
-```
+```py
 from ma_plan_validator import MAPlanValidator
 import unified_planning as up
 
